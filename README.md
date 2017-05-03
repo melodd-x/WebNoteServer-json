@@ -36,7 +36,7 @@ markdown: req.body.markdown
 ### 数据说明
 - `id`:就是数据id,前端给
 - `title`:文章标题
-- `data`:文章的创建时间或上传时间
+- `date`:文章的创建时间或上传时间
 - `content`:.md->html->文本,两次解析后的数据(根据需求是否需要)
 - `markdown`: 用户输入的markdown内容
 
